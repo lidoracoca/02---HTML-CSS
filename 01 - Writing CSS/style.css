@@ -1,0 +1,7 @@
+/* External Styling */
+
+p{
+    width: 200px;
+    border: 2px solid red;
+    color: blue;
+}

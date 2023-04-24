@@ -1,0 +1,42 @@
+body {
+    text-align: center;
+    background-image: url(assets/COM1450-400x284.jpeg);
+
+}
+
+
+h1 {
+    color: brown;
+    text-align: center;
+}
+
+table {
+    border: solid;
+}
+
+.container {
+    text-align: center;
+}
+
+.container img {
+    display: inline-block;
+    margin: 10px;
+}
+
+img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+}
+
+input.left {
+    background-color: yellow;
+}
+
+input {
+    background-color: aqua;
+}
+
+.left {
+    text-align: left;
+}

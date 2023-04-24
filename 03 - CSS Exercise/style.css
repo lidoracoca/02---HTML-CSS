@@ -1,0 +1,56 @@
+html,
+body {
+    text-align: center;
+    background-image: linear-gradient(gray, black);
+    color: white;
+    height: 100%;
+}
+
+table {
+    margin: auto;
+}
+
+a {
+    color: blue;
+}
+
+h1 {
+    color: brown;
+}
+
+h2 {
+    color: burlywood;
+}
+
+table,
+th,
+td {
+    border: 1px solid;
+    border-collapse: collapse;
+    padding: 5px;
+}
+
+tr:nth-child(even) {
+    background-color: lightgreen;
+}
+
+tr:nth-child(odd) {
+    background-color: lightblue;
+}
+
+th {
+    background-color: lightgray;
+}
+
+input {
+    background-color: yellow;
+}
+
+button {
+    background-color: orange;
+}
+
+label,
+input {
+    font-size: x-large;
+}

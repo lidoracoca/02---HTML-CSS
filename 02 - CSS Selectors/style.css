@@ -1,0 +1,57 @@
+/* Element Name Selector */
+
+p {
+    color: green;
+}
+
+h1 {
+    text-align: center;
+}
+
+/* Attribute Selector */
+p[dir="ltr"] {
+    color: red;
+}
+
+p[dir="rtl"] {
+    color: blue;
+}
+
+p[dir] {
+    background-color: lightgreen;
+}
+
+/* Class Selector */
+.amazing {
+    font-size: x-large;
+    font-weight: bold;
+    color: darkgoldenrod;
+}
+
+.cool-background {
+    color: white;
+    background-color: blueviolet;
+}
+
+/* ID Selector */
+#firstpar {
+    color: darkcyan;
+    font-weight: bold;
+    font-size: smaller;
+    font-style: italic;
+}
+
+/* Pseudo Selector */
+p::first-letter {
+    font-size: x-large;
+    color: magenta;
+    font-style: italic;
+}
+
+p::selection {
+    background-color: yellow;
+}
+
+a:hover {
+    color: orange;
+}

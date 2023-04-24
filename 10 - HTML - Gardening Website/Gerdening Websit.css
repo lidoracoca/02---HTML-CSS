@@ -1,0 +1,30 @@
+body{
+ background-color: dodgerblue;
+ color: gold;
+ font-size: large;
+}
+
+a{
+    color: orange;
+}
+
+p.copyRight{
+    text-align: center;
+    color: black;
+}
+
+h1{
+    text-align: center;
+    color: brown;
+}
+
+h2{
+    text-align: center;
+    color: blueviolet;
+}
+
+h6{
+    text-align: right;
+    color: black;
+}
+

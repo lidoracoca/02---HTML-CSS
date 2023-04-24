@@ -1,0 +1,141 @@
+body {
+    padding-top: 80px;
+    /* 60px הוא הגובה של התפריט */
+
+}
+
+.navbar {
+    height: 80px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+}
+
+div.container {
+    position: absolute;
+    height: auto;
+    left: 80px;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+
+div.position {
+    position: absolute;
+    height: 30px;
+    left: 90px;
+    padding: 0px;
+    margin: 0px;
+    display: flex;
+}
+
+
+li {
+    padding: 20px;
+    display: flex;
+}
+
+a.dropdown-item {
+    margin: -17px;
+    padding: -20px;
+    color: white;
+}
+
+
+img.imgposition {
+    position: relative;
+    left: -50px;
+}
+
+section.layout {
+    height: 100%;
+    box-sizing: border-box;
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+}
+
+header,
+nav,
+footer {
+    grid-column: span 6;
+}
+
+main {
+    margin-right: 40px;
+    grid-column: span 4;
+}
+
+
+div.bs {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+a.bs {
+    font-size: x-large;
+    text-decoration: none;
+    color: #00004c;
+    margin: 20px;
+}
+
+img.img-thumbnail {
+    position: relative;
+    border: 0;
+    margin-bottom: 30px;
+
+}
+
+div.img {
+    width: 100%;
+    margin-right: 100px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+footer {
+    background-color: #00004c;
+}
+
+
+div.pargo,
+div.links,
+div.fila,
+div.power,
+div.israel-canada {
+    display: flex;
+    display: block;
+    text-align: center;
+}
+
+
+a.links {
+    margin: 10px;
+    color: yellow;
+    font-size: small;
+    text-decoration: none;
+}
+
+
+a.power {
+    color: white;
+    text-decoration: none;
+}
+
+a.power:hover {
+    color: yellow;
+}
+
+div.ads {
+    display: flex;
+    width: 98.7%;
+}

@@ -1,0 +1,176 @@
+body {
+    padding-top: 80px;
+    /* 60px הוא הגובה של התפריט */
+
+}
+
+.navbar {
+    height: 80px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+}
+
+div.container {
+    position: absolute;
+    height: auto;
+    left: 80px;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+
+div.position {
+    position: absolute;
+    height: 30px;
+    left: 90px;
+    padding: 0px;
+    margin: 0px;
+    display: flex;
+}
+
+
+li {
+    padding: 20px;
+    display: flex;
+}
+
+a.dropdown-item {
+    margin: -17px;
+    padding: -20px;
+    color: white;
+}
+
+
+img.imgposition {
+    position: relative;
+    left: -50px;
+}
+
+#carouselExampleIndicators {
+    width: 50%;
+    height: 100%;
+
+}
+
+.carousel-item img {
+    height: 100%;
+    object-fit: cover;
+
+}
+
+main {
+    display: flex;
+}
+
+div.img-fluid {
+    text-align: left;
+    width: 50%;
+    height: 100%;
+}
+
+div.float-start {
+    display: flex;
+    height: 100%;
+}
+
+
+h3.news {
+    border-bottom: 2px solid;
+    width: 7%;
+    color: #00004c;
+}
+
+figure.figure {
+    margin: 5px;
+    padding: 3.5;
+}
+
+h3.teen {
+    border-bottom: 2px solid;
+    width: 15%;
+    color: #00004c;
+}
+
+a {
+    font-size: large;
+    color: rgba(0, 0, 255, 0.619);
+}
+
+div.teen {
+    display: flex;
+}
+
+h4.first {
+    border-bottom: 2px solid;
+    width: 52%;
+    color: #00004c;
+}
+
+h4.second {
+    border-bottom: 2px solid;
+    width: 42%;
+    color: #00004c;
+}
+
+h4.third {
+    border-bottom: 2px solid;
+    width: 20%;
+    color: #00004c;
+}
+
+footer {
+    background-color: #00004c;
+}
+
+div.israel-canada {
+    text-align: center;
+}
+
+div.fila {
+    display: flex;
+    display: block;
+    text-align: center;
+
+}
+
+div.pargo {
+    display: flex;
+    display: block;
+    text-align: center;
+}
+
+div.links {
+    display: flex;
+    display: block;
+    text-align: center;
+}
+
+a.links {
+    margin: 10px;
+    color: yellow;
+    font-size: small;
+    text-decoration: none;
+}
+
+div.power {
+    display: flex;
+    display: block;
+    text-align: center;
+
+}
+
+a.power {
+    color: white;
+    text-decoration: none;
+}
+
+a.power:hover {
+    color: yellow;
+}
+
+div.ads {
+    display: flex;
+    width: 98.7%;
+}

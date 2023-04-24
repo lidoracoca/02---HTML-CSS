@@ -1,0 +1,62 @@
+body {
+    background-image: linear-gradient(gray, black);
+    font-size: larger;
+}
+
+table,
+td,
+th {
+    background-image: linear-gradient(blue, yellow);
+    border: solid;
+    border-collapse: collapse;
+}
+
+ul {
+    color: darkmagenta;
+}
+
+span.pop {
+    border-bottom: 1px solid yellow;
+    color: cyan;
+}
+
+span.pri {
+    border-bottom: 1px solid yellow;
+    color: cyan;
+}
+
+span.for {
+    border-bottom: 1px solid yellow;
+    color: cyan;
+}
+
+a {
+    color: royalblue;
+}
+
+
+div.container {
+    display: flex;
+    align-items: center;
+}
+
+img {
+    margin: 10px;
+}
+
+h1 {
+    color: aqua;
+}
+
+h1:hover {
+    color: blue;
+    transition: all;
+}
+
+p:hover {
+    background-color: blue;
+}
+
+p {
+    color: yellow;
+}

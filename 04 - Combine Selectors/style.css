@@ -1,0 +1,22 @@
+/* Any span inside a paragraph */
+p span {
+    color: red;
+}
+
+/* Any span directly inside a paragraph (direct child) */
+p>span {
+    background-color: lawngreen;
+}
+
+h1,
+h2 {
+    color: orange;
+}
+
+p.cool {
+    border: 1px solid;
+}
+
+P#nice {
+    font-size: small;
+}

@@ -1,0 +1,71 @@
+body {
+    background-image: url(assets/image.jpg);
+    background-size: 150%;
+    background-position: center;
+    background-repeat: no-repeat;
+    font-size: xxx-large;
+    color: yellow;
+
+}
+
+h1 {
+    text-align: center;
+}
+
+h1:hover {
+    color: blue;
+    transition: all 2ms;
+}
+
+h2 {
+    color: red;
+    text-align: center;
+}
+
+h6 {
+    text-align: right;
+    color: red;
+}
+
+a {
+    color: orangered;
+    display: inline-block;
+    text-align: center;
+    width: 100%;
+}
+
+table,
+th,
+td {
+    border: solid;
+    border-color: blue;
+    color: blue;
+    background-color: yellow;
+    margin: auto;
+}
+
+iframe {
+    display: block;
+    margin: auto;
+}
+
+span.story {
+    display: inline-block;
+    text-align: center;
+    width: 100%;
+}
+
+img {
+    display: block;
+    margin: auto;
+}
+
+span {
+    background-color: blue;
+}
+
+span.table {
+    display: inline-block;
+    text-align: center;
+    width: 100%;
+}

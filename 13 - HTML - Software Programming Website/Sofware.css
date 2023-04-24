@@ -1,0 +1,91 @@
+/* style home page */
+body.home {
+    background-image: radial-gradient(white, blue);
+    color: indigo;
+    font-size: larger;
+}
+
+h1.home {
+    color: red;
+}
+
+div.home,
+a.home {
+    color: orange;
+}
+
+img {
+    display: block;
+    margin: auto;
+}
+
+/* style html page */
+body.html {
+    background-image: linear-gradient(black, orange);
+    color: red;
+}
+
+div.html,
+a.html {
+    color: orange;
+}
+
+iframe.html {
+    display: block;
+    margin: auto;
+}
+
+/* style css page */
+body.css {
+    background-image: repeating-radial-gradient(blue, black);
+    color: white;
+}
+
+iframe.css {
+    margin: auto;
+    display: block;
+}
+
+
+a.css,
+div.css {
+    color: darkred;
+    background-color: chartreuse;
+}
+
+/* style javascript page */
+
+body.javascript {
+    background-image: repeating-radial-gradient(yellow, black);
+    color: black;
+}
+
+iframe.javascript {
+    margin: auto;
+    display: block;
+}
+
+
+a.javascript,
+div.javascript {
+    color: darkred;
+    background-color: darkblue;
+}
+
+h1.javascript {
+    color: red;
+    background-color: dimgray;
+}
+
+h1.javascript:hover {
+    background-color: chartreuse;
+}
+
+p.javascript::first-line {
+    background-color: aquamarine;
+}
+
+p.javascript {
+    color: brown;
+    background-color: black;
+}
